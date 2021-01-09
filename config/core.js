@@ -9,7 +9,7 @@ const entrypoints = [
 const baker = new Baker({
   assets: 'assets',
   data: '_data',
-  domain: 'https://caseymm.github.io/whos-wearing-a-mask/_dist',
+  domain: 'https://caseymm.github.io/hotsauce.gay/_dist',
   entrypoints: `scripts/${
     entrypoints.length > 1 ? `{${entrypoints.join(',')}}` : entrypoints[0]
   }.js`,
@@ -17,7 +17,7 @@ const baker = new Baker({
   layouts: '_layouts',
   output: '_dist',
   pathPrefix: process.env.DELIVERY_BASE_PATH || '/',
-  staticRoot: 'whos-wearing-a-mask/' || '/',
+  staticRoot: 'hotsauce.gay/' || '/',
 });
 
 module.exports = { baker };
